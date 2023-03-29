@@ -55,24 +55,26 @@ const AboutPage = () => {
             development programs and nation-building activities.
           </p>
         </div>
-        <img
-          src="https://youngindians.net/wp-content/uploads/2023/03/Youth-Leadership.jpg"
-          alt="about-1"
-          style={{ borderRadius: "0 0.4rem 0.4rem 0" }}
-          className="u-about-page-img"
-        />
+        <div className="u-about-page-landing-hero-right">
+          <img
+            src="https://youngindians.net/wp-content/uploads/2023/03/Youth-Leadership.jpg"
+            alt="about-1"
+            className="u-about-page-hero-img img-1"
+          />
+        </div>
       </div>
       {/* 2 hero */}
       <div
         className="u-about-page-landing-hero"
         style={{ backgroundColor: "var(--yuva-dark-orange)" }}
       >
-        <img
-          src="https://youngindians.net/wp-content/uploads/2023/03/Nation-Building.jpg"
-          alt="about-1"
-          className="u-about-page-img"
-          style={{ borderRadius: "0.4rem 0 0 0.4rem" }}
-        />
+        <div className="u-about-page-hero-right">
+          <img
+            src="https://youngindians.net/wp-content/uploads/2023/03/Nation-Building.jpg"
+            alt="about-1"
+            className="u-about-page-hero-img img-2"
+          />
+        </div>
         <div className="u-about-page-landing-hero-left">
           <p className="u-about-page-landing-hero-heading">Nation Building</p>
           <p className="u-about-page-landing-hero-subheading">
@@ -101,12 +103,13 @@ const AboutPage = () => {
             collective voice.
           </p>
         </div>
-        <img
-          src="https://youngindians.net/wp-content/uploads/2023/03/Thought-Leadership.jpg"
-          alt="about-1"
-          style={{ borderRadius: "0 0.4rem 0.4rem 0" }}
-          className="u-about-page-img"
-        />
+        <div className="u-about-page-hero-right">
+          <img
+            src="https://youngindians.net/wp-content/uploads/2023/03/Thought-Leadership.jpg"
+            alt="about-1"
+            className="u-about-page-hero-img img-1"
+          />
+        </div>
       </div>
       {/* Team section */}
       <div className="u-about-page-landing-team">
@@ -165,8 +168,6 @@ const AboutPage = () => {
             <p className="u-about-page-landing-team-heading">Tom Riddle</p>
             <p className="u-about-page-landing-team-subheading">CEO</p>
           </div>
-        </div>
-        <div className="u-about-page-landing-team-row">
           <div className="u-about-page-landing-team-card">
             <img
               src="https://petapixel.com/assets/uploads/2019/02/download-4-800x800.jpeg"
@@ -234,7 +235,13 @@ const AboutPage = () => {
             <input type="text" placeholder="Last Name" />
             <input type="number" placeholder="Mobile Number" />
           </div>
-          <textarea name="message" id="" cols="30"  placeholder="Write a message" rows="10"></textarea>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            placeholder="Write a message"
+            rows="10"
+          ></textarea>
           <button className="u-about-page-landing-btn-1">Contact Us</button>
         </div>
       </div>
