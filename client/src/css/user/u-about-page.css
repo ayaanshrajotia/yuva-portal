@@ -188,8 +188,14 @@
 }
 
 .u-about-page-landing-footer-footer {
+  margin-top: 0.8rem;
   display: flex;
+}
+
+.u-about-page-landing-footer-footer p {
   color: #535353;
+  flex-basis: 50%;
+  text-align: center;
 }
 
 .u-about-page-landing-footer-footer a {
